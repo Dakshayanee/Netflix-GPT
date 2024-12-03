@@ -32,3 +32,20 @@ set up GitHub Action deploys ->add exsiting project -> choose project -> give na
   -->add updateProfile function from firebase into the login form
 
   -->put all the string urls in one constant file "# Netflix-GPT" 
+
+  ---> to fetch movie data use TMDB
+       -first login
+       -register your app init
+       -settings -> api  ->now playing movie list ->copy get api and paste it in constants and fetch this api in browse using
+         async await
+         -then call the api using useEffect because it will be called only once
+
+  ---->to add movie list to redux store
+      -create movie slice 
+
+------>create a custom hook to reduce code in the browse and add into the useNowPlayingMovies 
+
+------>for backdround video goto tmdb ->doc->api ref->
+movie -> videos -> put id of 1st video
+
+--->add custom hook for videobackground as useMovieTrailer

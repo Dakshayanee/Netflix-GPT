@@ -78,7 +78,7 @@ const dispatch=useDispatch();
         // An error occurred 
           setErrorMessage(error.message);
          });
-       console.log(user);
+      // console.log(user);
      
   })
   .catch((error) => {
@@ -96,7 +96,7 @@ const dispatch=useDispatch();
      .then((userCredential) => {
     // Signed in 
       const user = userCredential.user;
-      console.log(user);
+     // console.log(user);
 
        // Dispatch user data to store after successful sign-in
        dispatch(addUser({
