@@ -49,3 +49,10 @@ set up GitHub Action deploys ->add exsiting project -> choose project -> give na
 movie -> videos -> put id of 1st video
 
 --->add custom hook for videobackground as useMovieTrailer
+
+--->build secondary component
+  1.secondary component
+  2.Movie list --contains no of movies
+  3.Movie Card  
+  4.create movie card with img
+to get image url from TMDB  -->guide ->image ->basic  copy the img url in ur constant 
