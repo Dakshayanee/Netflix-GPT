@@ -6,7 +6,7 @@ import { auth } from '../Utils/Firebase';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../Utils/userSlice';
-import { USER_AVTAR } from '../Utils/constants';
+import { BG_URL, USER_AVTAR } from '../Utils/constants';
 
 
 
@@ -125,7 +125,7 @@ const dispatch=useDispatch();
       <div className='absolute'>
       <img 
       className='h-screen w-screen'
-      src='https://blog.farmerswife.com/hs-fs/hubfs/840_560.jpeg?width=840&height=545&name=840_560.jpeg'
+      src={BG_URL}
       alt='bg-img'/>
        </div>
 

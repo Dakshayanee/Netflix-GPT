@@ -56,3 +56,12 @@ movie -> videos -> put id of 1st video
   3.Movie Card  
   4.create movie card with img
 to get image url from TMDB  -->guide ->image ->basic  copy the img url in ur constant 
+
+    ****GPT Search header****
+    1.create a button(GPTSearch) in header show only when user logged in
+    2.create GPTSearch component and import it in browse
+    3.create a slice for store the info
+
+    ****Multi-lang feature in our app ****
+    1.create a const to store lang
+    2.use it in GptSearchBar
